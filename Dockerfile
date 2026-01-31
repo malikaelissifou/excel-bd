@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 # Installer les dépendances
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r Requirements.txt
 
 # Créer le dossier data s'il n'existe pas
 RUN mkdir -p data
