@@ -2,12 +2,13 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
+# Copier TOUT le projet (Docker ignore ce qui est dans .dockerignore)
+COPY . .
 
+# Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY backend.py .
-
+# Créer le dossier data s'il n'existe pas
 RUN mkdir -p data
 
 EXPOSE 8000
