@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node
+front/node_modules/
+front/dist/
+front/build/
+
+# Data - Base de données Excel (garde privée)
+data/database.xlsx
+data/*.xlsx
+data/*.xls
+data/*_tmp.xlsx
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
