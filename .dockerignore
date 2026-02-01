@@ -1,7 +1,13 @@
 .venv/
 __pycache__/
+*.pyc
 front/node_modules/
 front/dist/
 data/database.xlsx
-*.pyc
+data/*.xlsx
 .git/
+.gitignore
+*.zip
+arb.txt
+fix_database.py
+Readme.md
