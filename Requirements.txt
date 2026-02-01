@@ -3,27 +3,3 @@ uvicorn==0.24.0
 pandas==2.1.3
 openpyxl==3.1.2
 python-multipart==0.0.6
-```
-
----
-
-## 🚫 Fichiers à NE PAS inclure dans le ZIP
-
-Crée un fichier `.gitignore` (optionnel) :
-```
-# Python
-.venv/
-__pycache__/
-*.pyc
-
-# Node
-front/node_modules/
-front/dist/
-
-# Data (optionnel, selon si tu veux inclure le fichier Excel)
-data/database.xlsx
-data/*.xlsx
-
-# IDE
-.vscode/
-.idea/
